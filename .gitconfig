@@ -1,0 +1,8 @@
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+[user]
+	email = amorris2003@gmail.com
+	name = Adam Morris
