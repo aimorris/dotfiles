@@ -3,7 +3,7 @@ cursor:
 colors:
   # Default colors
   primary:
-    background: '#2c2c2c'
+    background: '#1a1a1a'
     foreground: '#d6d6d6'
 
     dim_foreground:    '#dbdbdb'
@@ -23,7 +23,7 @@ colors:
     green:   '#909d63'
     yellow:  '#ebc17a'
     blue:    '#7eaac7'
-    magenta: '#aa6292'
+    magenta: '#b77ba3'
     cyan:    '#86d3ce'
     white:   '#cacaca'
 
@@ -34,7 +34,7 @@ colors:
     green:   '#909d63'
     yellow:  '#ebc17a'
     blue:    '#7eaac7'
-    magenta: '#aa6292'
+    magenta: '#b77ba3'
     cyan:    '#86d3ce'
     white:   '#f7f7f7'
 
