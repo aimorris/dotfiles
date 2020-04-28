@@ -107,8 +107,5 @@ exec --no-startup-id feh --bg-scale ~/.local/share/wallpapers/Waterfall_Ohio.jpg
 floating_minimum_size 75 x 50
 floating_maximum_size 1600 x 900
 
-# Compositor
-exec --no-startup-id picom -b
-
 # Screenshot
-bindsym $mod+Shift+s exec maim -s | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+s exec maim --hidecursor -s | xclip -selection clipboard -t image/png
