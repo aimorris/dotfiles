@@ -11,10 +11,24 @@ general {
         interval = 5
 }
 
+order += "read_file brightness"
+order += "volume master"
 order += "battery all"
-order += "load"
 order += "memory"
 order += "tztime local"
+
+read_file brightness {
+  format = "BRIGHTNESS: %content"
+  path = "/home/aimorris/.config/brightness"
+}
+
+volume master {
+        format = "VOL: %volume"
+        format_muted = "VOL: MUTED"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
 
 wireless _first_ {
         format_up = "W: (%quality at %essid) %ip"
@@ -27,7 +41,7 @@ ethernet _first_ {
 }
 
 battery all {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage"
 }
 
 disk "/" {
@@ -39,7 +53,7 @@ load {
 }
 
 memory {
-        format = "%used | %available"
+        format = "%used out of %available"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
