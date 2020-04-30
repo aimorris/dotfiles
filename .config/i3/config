@@ -113,7 +113,7 @@ bindsym $mod+Shift+space floating toggle; resize set 1600 900; move position cen
 bar {
   font pango:Inconsolata, Icons 9
   colors {
-    background #111111
+    background #1a1a1a
   }
 
   status_command SCRIPT_DIR=~/.config/i3blocks/scripts i3blocks

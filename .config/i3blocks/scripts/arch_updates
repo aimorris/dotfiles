@@ -7,8 +7,8 @@ use utf8;
 my $PACKAGE_COUNT = `checkupdates | wc -l`;
 my $COLOR = "#6e997c";
 
-if ($PACKAGE_COUNT == 1) {
-  print "No packages to update\n";
+if ($PACKAGE_COUNT == 0) {
+  print "No updates available\n";
 } else {
   chomp $PACKAGE_COUNT;
   print "$PACKAGE_COUNT updates available\n\n";

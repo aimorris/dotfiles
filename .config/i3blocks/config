@@ -14,7 +14,7 @@ separator_block_width=30
 command=$SCRIPT_DIR/arch_updates
 interval=3600
 align=center
-color=#ccc
+color=#cccccc
 
 [backlight]
 command=$SCRIPT_DIR/backlight
@@ -22,14 +22,14 @@ label=BRI
 interval=once
 signal=20
 align=center
-color=#ccc
+color=#cccccc
 
 [battery]
 command=$SCRIPT_DIR/battery
 interval=5
 LABEL=BAT 
 align=center
-color=#ccc
+color=#cccccc
 
 [volume]
 command=$SCRIPT_DIR/volume
@@ -37,24 +37,24 @@ LABEL=VOL
 interval=once
 signal=10
 align=center
-color=#ccc
+color=#cccccc
 
 [memory]
 command=$SCRIPT_DIR/memory
 label=MEM 
 interval=10
 align=center
-color=#ccc
+color=#cccccc
 
 [cpu_usage]
 command=$SCRIPT_DIR/cpu_usage
 interval=10
 label=CPU 
 align=center
-color=#ccc
+color=#cccccc
 
 [time]
 command=date '+%B %d %T'
 interval=1
 align=center
-color=#ccc
+color=#cccccc
