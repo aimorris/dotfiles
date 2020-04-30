@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use utf8;
+
+my $PACKAGE_COUNT = `checkupdates | wc -l`;
+my $COLOR = "#6e997c";
+
+if ($PACKAGE_COUNT == 1) {
+  print "No packages to update\n";
+} else {
+  chomp $PACKAGE_COUNT;
+  print "$PACKAGE_COUNT updates available\n\n";
+  print "$COLOR\n";
+}
