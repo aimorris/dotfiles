@@ -109,9 +109,8 @@ bindsym Print exec maim ~/Pictures/screenshot_$(date +%Y-%m-%d_%H:%M:%S).png
 # Floating toggle
 bindsym $mod+Shift+space floating toggle; resize set 1600 900; move position center
 
-# i3status
+# i3blocks
 bar {
-  font pango:Inconsolata, Icons 9
   colors {
     background #1a1a1a
   }
