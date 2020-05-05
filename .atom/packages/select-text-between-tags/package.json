@@ -1,0 +1,322 @@
+{
+  "_from": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+  "_id": "select-text-between-tags@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-iEJCgkD2hXSaWsdfGJdAaSHjXs8+ozj5hDEn7Lsj1FcdHlm2zlg4XJp0cIXfryKPT6JjajaPPGxRjGhFAW3Ltg==",
+  "_location": "/select-text-between-tags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+  "_shasum": "7a63e2fd3d2163ea474a59f786d6387c382681b6",
+  "_spec": "https://www.atom.io/api/packages/select-text-between-tags/versions/0.1.1/tarball",
+  "_where": "/tmp/apm-install-dir-202042-103384-1wz4y8z.xaus",
+  "activationCommands": {
+    "atom-text-editor": "select-text-between-tags:select"
+  },
+  "bugs": {
+    "url": "https://github.com/ikngtty/atom-select-text-between-tags/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fs-plus": "^3.0.2"
+  },
+  "deprecated": false,
+  "description": "Selects text between <foo> and </foo> with `⌘->`.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ikngtty/atom-select-text-between-tags#readme",
+  "keywords": [
+    "atom",
+    "select",
+    "tag",
+    "html",
+    "xml"
+  ],
+  "license": "MIT",
+  "main": "./lib/select-text-between-tags",
+  "name": "select-text-between-tags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikngtty/atom-select-text-between-tags.git"
+  },
+  "version": "0.1.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "async",
+        "version": "1.5.2",
+        "path": "node_modules/async/lib/async.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "path": "node_modules/balanced-match/index.js"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.11",
+        "path": "node_modules/brace-expansion/index.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules/concat-map/index.js"
+      },
+      {
+        "name": "fs-plus",
+        "version": "3.1.1",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "path": "node_modules/fs.realpath/index.js"
+      },
+      {
+        "name": "glob",
+        "version": "7.1.6",
+        "path": "node_modules/glob/glob.js"
+      },
+      {
+        "name": "inflight",
+        "version": "1.0.6",
+        "path": "node_modules/inflight/inflight.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.4",
+        "path": "node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "path": "node_modules/minimatch/minimatch.js"
+      },
+      {
+        "name": "minimist",
+        "version": "1.2.5",
+        "path": "node_modules/minimist/index.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.5.5",
+        "path": "node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "once",
+        "version": "1.4.0",
+        "path": "node_modules/once/once.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.7.1",
+        "path": "node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.10.2",
+        "path": "node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.7.0",
+        "path": "node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules/wrappy/wrappy.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/helpers/common-helpers.js",
+        "lib/loggers/console-logger.js",
+        "lib/loggers/empty-logger.js",
+        "lib/loggers/logger.js",
+        "lib/models/tag.js",
+        "lib/models/tagged-element.js",
+        "lib/scanners/tag-scanner.js",
+        "lib/scanners/tagged-element-scanner.js",
+        "lib/select-text-between-tags.js",
+        "node_modules/async/dist/async.js",
+        "node_modules/async/dist/async.min.js",
+        "node_modules/async/lib/async.js",
+        "node_modules/balanced-match/index.js",
+        "node_modules/brace-expansion/index.js",
+        "node_modules/concat-map/example/map.js",
+        "node_modules/concat-map/index.js",
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs.realpath/index.js",
+        "node_modules/fs.realpath/old.js",
+        "node_modules/glob/common.js",
+        "node_modules/glob/glob.js",
+        "node_modules/glob/sync.js",
+        "node_modules/inflight/inflight.js",
+        "node_modules/inherits/inherits.js",
+        "node_modules/inherits/inherits_browser.js",
+        "node_modules/minimatch/minimatch.js",
+        "node_modules/minimist/example/parse.js",
+        "node_modules/minimist/index.js",
+        "node_modules/mkdirp/bin/cmd.js",
+        "node_modules/mkdirp/index.js",
+        "node_modules/once/once.js",
+        "node_modules/path-is-absolute/index.js",
+        "node_modules/rimraf/bin.js",
+        "node_modules/rimraf/rimraf.js",
+        "node_modules/underscore/modules/index-all.js",
+        "node_modules/underscore/modules/index-default.js",
+        "node_modules/underscore/modules/index.js",
+        "node_modules/underscore/underscore-min.js",
+        "node_modules/underscore/underscore.js",
+        "node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/wrappy/wrappy.js"
+      ],
+      ".json": [
+        "node_modules/async/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/fs-plus/package.json",
+        "node_modules/fs.realpath/package.json",
+        "node_modules/glob/package.json",
+        "node_modules/inflight/package.json",
+        "node_modules/inherits/package.json",
+        "node_modules/minimatch/package.json",
+        "node_modules/minimist/package.json",
+        "node_modules/mkdirp/package.json",
+        "node_modules/once/package.json",
+        "node_modules/path-is-absolute/package.json",
+        "node_modules/rimraf/package.json",
+        "node_modules/underscore/package.json",
+        "node_modules/underscore-plus/package.json",
+        "node_modules/wrappy/package.json",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "keymaps",
+          "lib/helpers",
+          "lib/loggers",
+          "lib/models",
+          "lib/scanners",
+          "lib",
+          "menus",
+          "",
+          "spec",
+          "spec/constants",
+          "spec/helpers",
+          "spec/scripts"
+        ],
+        "dependencies": {
+          "fs-plus": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^1.0.0",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "async": "^1.5.2",
+          "mkdirp": "^0.5.1",
+          "rimraf": "^2.5.2",
+          "underscore-plus": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob"
+        ],
+        "dependencies": {
+          "fs.realpath": "^1.0.0",
+          "inflight": "^1.0.4",
+          "inherits": "2",
+          "minimatch": "^3.0.4",
+          "once": "^1.3.0",
+          "path-is-absolute": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/inflight"
+        ],
+        "dependencies": {
+          "once": "^1.3.0",
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.1.7"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mkdirp/bin",
+          "node_modules/mkdirp"
+        ],
+        "dependencies": {
+          "minimist": "^1.2.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/once"
+        ],
+        "dependencies": {
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/rimraf"
+        ],
+        "dependencies": {
+          "glob": "^7.1.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/underscore-plus/lib",
+          "node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "^1.9.1"
+        }
+      }
+    ]
+  }
+}

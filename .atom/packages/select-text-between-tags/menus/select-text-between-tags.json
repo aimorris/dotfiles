@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Select Text between Tags",
+        "command": "select-text-between-tags:select"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Select Text between Tags",
+          "submenu": [
+            {
+              "label": "Select",
+              "command": "select-text-between-tags:select"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

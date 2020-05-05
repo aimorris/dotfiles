@@ -1,0 +1,1 @@
+{"context-menu":{"atom-workspace":[{"label":"Line Count","command":"line-count:open"}]},"menu":[{"label":"Packages","submenu":[{"label":"Line Count","command":"line-count:open"}]}]}

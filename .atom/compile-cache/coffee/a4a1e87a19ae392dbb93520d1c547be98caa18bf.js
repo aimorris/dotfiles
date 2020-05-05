@@ -1,0 +1,9 @@
+(function() {
+  $(function() {
+    initForms();
+    return initCards();
+  });
+
+}).call(this);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiL2hvbWUvYWltb3JyaXMvLmF0b20vcGFja2FnZXMvbGluZS1jb3VudC90ZXN0L2V4b3BsYW5ldHMvYXBwL2Fzc2V0cy9qYXZhc2NyaXB0cy9hcHBsaWNhdGlvbi5qcy5jb2ZmZWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT0E7RUFBQSxDQUFBLENBQUUsU0FBQTtJQUNBLFNBQUEsQ0FBQTtXQUNBLFNBQUEsQ0FBQTtFQUZBLENBQUY7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbIiM9IHJlcXVpcmUganF1ZXJ5XG4jPSByZXF1aXJlIGpxdWVyeV91anNcbiM9IHJlcXVpcmUgY2hvc2VuLmpxdWVyeS5taW5cbiM9IHJlcXVpcmUgdHVyYm9saW5rc1xuIz0gcmVxdWlyZSBmb3Jtc1xuIz0gcmVxdWlyZSBjYXJkc1xuXG4kIC0+XG4gIGluaXRGb3JtcygpXG4gIGluaXRDYXJkcygpXG4iXX0=

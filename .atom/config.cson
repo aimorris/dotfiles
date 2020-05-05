@@ -1,0 +1,65 @@
+"*":
+  "atom-beautify":
+    js: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "symbols-view"
+      "archive-view"
+      "fuzzy-finder"
+      "grammar-selector"
+      "go-to-line"
+      "keybinding-resolver"
+      "language-clojure"
+      "language-csharp"
+      "language-gfm"
+      "language-go"
+      "language-java"
+      "language-less"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-property-list"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-rust-bundled"
+      "language-sass"
+      "language-shellscript"
+      "language-source"
+      "language-sql"
+      "language-text"
+      "language-todo"
+      "language-toml"
+      "language-xml"
+      "language-yaml"
+      "line-ending-selector"
+      "language-coffee-script"
+      "link"
+      "metrics"
+      "open-on-github"
+      "package-generator"
+      "spell-check"
+      "styleguide"
+      "welcome"
+      "wrap-guide"
+    ]
+    packagesWithKeymapsDisabled: [
+      "select-text-between-tags"
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "2c4c6954-facd-474c-8f62-dbcc7c1bc812"
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false

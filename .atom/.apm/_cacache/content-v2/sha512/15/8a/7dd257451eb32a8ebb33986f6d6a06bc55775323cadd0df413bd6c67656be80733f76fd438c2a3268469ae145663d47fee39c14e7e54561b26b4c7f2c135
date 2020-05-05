@@ -1,0 +1,1 @@
+{"name":"fqueue","dist-tags":{"latest":"0.0.0"},"versions":{"0.0.0":{"name":"fqueue","version":"0.0.0","devDependencies":{"mocha":"1.0.x"},"dist":{"shasum":"533205a4f9ad21bbaa38fc61cef3a930c2f54836","tarball":"https://registry.npmjs.org/fqueue/-/fqueue-0.0.0.tgz"},"engines":{"node":">= 0.4.x"}}},"modified":"2012-04-15T19:37:42.253Z"}
