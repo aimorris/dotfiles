@@ -1,0 +1,10 @@
+*
+!.config
+!.config/alacritty/
+!.config/alacritty/alacritty.yml
+!.config/archconfig/
+!.config/archconfig/*
+!.config/sway/
+!.config/sway/config
+!.gitignore
+!.zshrc
