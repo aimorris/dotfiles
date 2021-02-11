@@ -4,7 +4,13 @@
 !.config/alacritty/alacritty.yml
 !.config/archconfig/
 !.config/archconfig/*
+!.config/scripts/
+!.config/scripts/lila-watch
 !.config/sway/
 !.config/sway/config
+!.config/systemd/
+!.config/systemd/user/
+!.config/systemd/user/lila.service
+!.config/systemd/user/lila-watch.service
 !.gitignore
 !.zshrc
