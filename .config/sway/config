@@ -11,9 +11,9 @@ set $menu BEMENU_BACKEND=wayland j4-dmenu-desktop --dmenu="bemenu -i --nb '#1a1a
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 # Allow use of touchpad while typing
-input "1739:30382:DLL0704:01_06CB:76AE_Touchpad" {
+input type:touchpad {	
 	dwt disabled
-    tap enabled
+	tap enabled
 }
 
 # Start a terminal
