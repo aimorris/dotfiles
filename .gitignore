@@ -8,6 +8,7 @@
 !.config/scripts/lila-watch
 !.config/sway/
 !.config/sway/config
+!.config/sway/status.sh
 !.config/systemd/
 !.config/systemd/user/
 !.config/systemd/user/lila.service
