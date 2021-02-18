@@ -1,6 +1,24 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Flutter
+export PATH=$PATH:/home/aimorris/work/github/flutter/flutter/bin
+export PATH=$PATH:/home/aimorris/work/github/flutter/flutter/bin
+
+# Android SDK
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin/
+export PATH=$PATH:$ANDROID_HOME/tools
+export ANDROID_SDK_ROOT='/opt/android-sdk'
+
+# Java
+export JAVA_HOME='/usr/lib/jvm/default'
+export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions'
+
+# Firefox Wayland
+export MOZ_ENABLE_WAYLAND=1
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/aimorris/.oh-my-zsh"
 
