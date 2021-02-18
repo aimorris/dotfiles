@@ -1,0 +1,5 @@
+MOZ_ENABLE_WAYLAND=1
+PATH="$PATH:/home/aimorris/work/github/flutter/flutter/bin"
+JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+JAVA_HOME='/usr/lib/jvm/java-11-openjdk'
+ANDROID_SDK_ROOT='/opt/android-sdk'

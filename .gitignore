@@ -14,4 +14,5 @@
 !.config/systemd/user/lila.service
 !.config/systemd/user/lila-watch.service
 !.gitignore
+!.pam_environment
 !.zshrc
