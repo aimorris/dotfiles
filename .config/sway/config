@@ -19,6 +19,9 @@ input type:touchpad {
 # Start a terminal
 bindsym $mod+Return exec $term
 
+# Signal on startup
+exec signal-desktop && sway '[class="Signal"]' move container to workspace 8
+
 # Kill focused window
 bindsym $mod+Shift+q kill
 
