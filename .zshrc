@@ -16,9 +16,6 @@ export ANDROID_SDK_ROOT='/opt/android-sdk'
 export JAVA_HOME='/usr/lib/jvm/default'
 export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions'
 
-# Firefox Wayland
-export MOZ_ENABLE_WAYLAND=1
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/aimorris/.oh-my-zsh"
 
