@@ -20,7 +20,9 @@ input type:touchpad {
 bindsym $mod+Return exec $term
 
 # Signal on startup
-exec signal-desktop && sway '[class="Signal"]' move container to workspace 8
+workspace 10
+exec signal-desktop
+workspace 1
 
 # Kill focused window
 bindsym $mod+Shift+q kill
@@ -47,9 +49,9 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Volume keys
-bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5+ unmute"
-bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5- unmute"
-bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
+bindsym XF86AudioRaiseVolume exec "amixer -q sset Master 5+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer -q sset Master 5- unmute"
+bindsym XF86AudioMute exec "amixer -q sset Master toggle"
 
 # Brightness keys
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
