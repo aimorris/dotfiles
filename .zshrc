@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Custom scripts
+export PATH=$PATH:/home/aimorris/.local/bin
+
 # Flutter
 export PATH=$PATH:/home/aimorris/work/github/flutter/flutter/bin
 export PATH=$PATH:/home/aimorris/work/github/flutter/flutter/bin

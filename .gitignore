@@ -1,5 +1,5 @@
 *
-!.config
+!.config/
 !.config/alacritty/
 !.config/alacritty/alacritty.yml
 !.config/archconfig/
@@ -14,6 +14,8 @@
 !.config/systemd/user/lila.service
 !.config/systemd/user/lila-watch.service
 !.gitignore
-!.pam_environment
+!.local/
+!.local/bin/
+!.local/bin/*
 !.zshenv
 !.zshrc
