@@ -49,9 +49,9 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Volume keys
-bindsym XF86AudioRaiseVolume exec "amixer -q sset Master 5+ unmute"
-bindsym XF86AudioLowerVolume exec "amixer -q sset Master 5- unmute"
-bindsym XF86AudioMute exec "amixer -q sset Master toggle"
+bindsym XF86AudioRaiseVolume exec "amixer -q -D pulse sset Master 10%+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer -q -D pulse sset Master 10%- unmute"
+bindsym XF86AudioMute exec "amixer -q -D pulse sset Master toggle"
 
 # Brightness keys
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
