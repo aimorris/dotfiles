@@ -4,6 +4,7 @@
 !.config/alacritty/alacritty.yml
 !.config/archconfig/
 !.config/archconfig/*
+!.config/user-dirs.dirs
 !.config/scripts/
 !.config/scripts/lila-watch
 !.config/sway/
