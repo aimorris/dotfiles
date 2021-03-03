@@ -4,6 +4,8 @@
 !.config/alacritty/alacritty.yml
 !.config/archconfig/
 !.config/archconfig/*
+!.config/dunst/
+!.config/dunst/dunstrc
 !.config/user-dirs.dirs
 !.config/scripts/
 !.config/scripts/lila-watch
