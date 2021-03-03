@@ -22,6 +22,9 @@ export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions'
 # Path to your oh-my-zsh installation.
 export ZSH="/home/aimorris/.oh-my-zsh"
 
+# Automatic rehash
+zstyle ':completion:*' rehash true
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -118,9 +121,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Set up Node Version Manager
-source /usr/share/nvm/init-nvm.sh
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/aimorris/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -136,3 +136,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
