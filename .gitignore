@@ -9,9 +9,9 @@
 !.config/user-dirs.dirs
 !.config/scripts/
 !.config/scripts/lila-watch
-!.config/sway/
-!.config/sway/config
-!.config/sway/status.sh
+!.config/i3/
+!.config/i3/config
+!.config/i3/status.sh
 !.config/systemd/
 !.config/systemd/user/
 !.config/systemd/user/lila.service

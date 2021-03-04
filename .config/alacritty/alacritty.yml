@@ -2,7 +2,8 @@ cursor:
   style: Beam
 font:
   normal:
-    family: Source Code Pro
+    family: monospace
+  size: 8
 colors:
   # Default colors
   primary:
