@@ -40,8 +40,9 @@ bindsym $mod+Shift+q kill
 bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu="bemenu -i --nb '#1a1a1a' --nf '#ffffff' --hf '#1a1a1a' --hb '#ffffff' --tb '#ffffff' --tf '#1a1a1a' --fb '#1a1a1a' --ff '#ffffff' --fn 'monospace'" --term="alacritty"
 
 # Borders
-for_window [class="^.*"] border none
+# for_window [class="^.*"] border none
 smart_borders on
+new_window 1pixel
 
 # Move focus around
 bindsym $mod+Left focus left
