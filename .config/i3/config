@@ -39,6 +39,9 @@ bindsym $mod+Shift+q kill
 # start dmenu
 bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu="bemenu -i --nb '#1a1a1a' --nf '#ffffff' --hf '#1a1a1a' --hb '#ffffff' --tb '#ffffff' --tf '#1a1a1a' --fb '#1a1a1a' --ff '#ffffff' --fn 'monospace'" --term="alacritty"
 
+# Sets wallpaper
+exec --no-startup-id exec ~/.config/scripts/apod.sh
+
 # Borders
 # for_window [class="^.*"] border none
 smart_borders on
