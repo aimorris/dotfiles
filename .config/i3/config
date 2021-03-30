@@ -26,6 +26,9 @@ bindsym XF86AudioRaiseVolume exec "amixer -q -D pulse sset Master 5%+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q -D pulse sset Master 5%- unmute"
 bindsym XF86AudioMute exec "amixer -q -D pulse sset Master toggle"
 
+# Background
+exec --no-startup-id feh --bg-scale .apodwallpaper/apodwallpaper.jpg
+
 # Brightness keys
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
