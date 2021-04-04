@@ -1,5 +1,8 @@
 set $mod Mod4
 
+# Lila restart
+bindsym F1 exec systemctl --user restart lila
+
 # Font
 font pango:monospace 12
 
