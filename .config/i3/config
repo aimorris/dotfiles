@@ -7,7 +7,7 @@ bindsym F1 exec systemctl --user restart lila
 font pango:monospace 12
 
 # App workspace assignment
-for_window [class="spotify"] move to workspace 8
+for_window [class="Spotify"] move to workspace 8
 for_window [class="discord"] move to workspace 9
 for_window [class="Signal"] move to workspace 10
 
