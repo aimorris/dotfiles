@@ -16,7 +16,7 @@ mv "$line" "${FILENAME}.jpg"
 done
 
 # Set as wallpaper
-feh --bg-scale "${APODWALLPAPER}/${FILENAME}.jpg"
+feh --bg-fill "${APODWALLPAPER}/${FILENAME}.jpg"
 
 #get rid of cruft
 rm -rf apod robots.txt robots.txt.tmp
