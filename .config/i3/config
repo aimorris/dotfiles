@@ -120,7 +120,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # Status bar
 bar {
     position top
-    status_command while ~/.config/i3/status.sh; do sleep 1; done
+    status_command while ~/.config/i3/status.sh; do sleep 0.2; done
     colors {
     	statusline #ffffff
     	background #1a1a1a
