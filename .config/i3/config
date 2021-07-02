@@ -3,7 +3,7 @@ set $laptop "eDP-1-1"
 set $monitor "HDMI-0"
 
 # Lila restart
-bindsym F3 exec systemctl --user restart lila
+bindsym F5 exec systemctl --user restart lila
 
 # Font
 font pango:monospace 12
