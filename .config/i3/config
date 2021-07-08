@@ -6,7 +6,7 @@ set $monitor "HDMI-0"
 exec --no-startup-id feh --bg-fill /home/aimorris/.config/wallpapers/PIA17832.tif
 
 # Lila restart
-bindsym F5 exec systemctl --user restart lila
+bindsym Shift+F12 exec systemctl --user restart lila
 
 # Font
 font pango:monospace 12
