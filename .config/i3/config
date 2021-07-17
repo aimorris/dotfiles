@@ -41,7 +41,7 @@ bindsym XF86AudioLowerVolume exec "amixer -q -D pulse sset Master 5%- unmute"
 bindsym XF86AudioMute exec "amixer -q -D pulse sset Master toggle"
 
 # Background
-exec --no-startup-id /home/aimorris/.config/scripts/apod.sh
+# exec --no-startup-id /home/aimorris/.config/scripts/apod.sh
 
 # Brightness keys
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
